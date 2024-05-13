@@ -6,7 +6,17 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
 
-  <body>
-    <%= yield %>
-  </body>
+<h1>Dice Roll</h1>
+
+  <form action="/process_url">
+  <label for="zebra">Number of dice to roll?</label>
+  <input id="zebra" name="How many sides per die">
+	
+  <label for="giraffe">How many sides per die?</label>
+  <input id="giraffe" name="Sides per die">
+	
+  <button>Roll!</button>
+</form>
 </html>
+
+
